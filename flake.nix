@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
-    neovim-flake.inputs.nixpkgs.follows = "nixpkgs";
+    lapce-flake.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = {
